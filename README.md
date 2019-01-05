@@ -13,7 +13,7 @@ var shape = input.Context.Viewport?.Shape;
 
 ## Creating a Layout Document
 Alexa.NET.APL has a set of APL components so that creating layouts is entirely within the C# object model
-All properties are of Type `APLValue&lt;T&gt;` - which allows you to specify an absolute value or an APL data binding expression for each property
+All properties are of Type `APLValue<T>` - which allows you to specify an absolute value or an APL data binding expression for each property
 ```csharp
 new Layout(new[]
 {
